@@ -2,7 +2,7 @@ module.exports = {
     apps: [
         {
             name: 'elaina-bot',
-            script: 'src/index.js',
+            script: 'index.js',
             instances: 1, // DO NOT use cluster mode with Baileys
             autorestart: true,
             watch: false,
